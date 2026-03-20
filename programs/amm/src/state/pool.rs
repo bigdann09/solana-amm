@@ -4,7 +4,7 @@ use anchor_lang::prelude::*;
 #[derive(InitSpace)]
 pub struct Pool {
     pub token_mint_a: Pubkey,
-    pub token_mint_a: Pubkey,
+    pub token_mint_b: Pubkey,
     pub vault_a: Pubkey,
     pub vault_b: Pubkey,
     pub lp_mint: Pubkey,
