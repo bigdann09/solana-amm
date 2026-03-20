@@ -1,0 +1,1 @@
+pub const PROTOCOL_SEED: &[u8] = b"amm_protocol"; 
